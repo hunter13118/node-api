@@ -4,14 +4,17 @@
   "description": "For DU",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "author": "Me",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hunter13118/node-api.git"
